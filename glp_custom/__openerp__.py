@@ -11,11 +11,13 @@
     'description': """Módulo que contiene customizaiones varias para Galipat""",
     'depends': [
         'base',
+        'account_asset',
     ],
     'contributors': [
         "Pedro Gómez <pegomez@elnogal.com>"
     ],
     'data': [
+        'views/account_asset_view.xml',
     ],
     'demo': [
     ],
