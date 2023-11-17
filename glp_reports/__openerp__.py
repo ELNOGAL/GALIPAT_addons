@@ -11,12 +11,13 @@
     'description': """Módulo que contiene reportes de Galipat""",
     'depends': [
         'base',
-        #'report_webkit'
+        'report',
     ],
     'contributors': [
         "Pedro Gómez <pegomez@elnogal.com>"
     ],
     'data': [
+        'data/report_paperformat.xml',
         'views/layouts_custom.xml',
     ],
     'demo': [

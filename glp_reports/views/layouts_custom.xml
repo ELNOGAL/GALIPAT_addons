@@ -17,6 +17,12 @@
                 <div t-if="company.company_registry" class="text-center" style="border-top: 1px solid black;">
                     <span t-field="company.company_registry"/>
                 </div>
+                <div t-if="company.rml_footer_lopd_orders and o._name == 'sale.order'" class="text-justify" style="border-top: 1px solid black;font-size: 65%">
+                    <span t-field="company.rml_footer_lopd_orders"/>
+                </div>
+                <div t-if="company.rml_footer_lopd_invoices and o._name == 'account.invoice'" class="text-justify" style="border-top: 1px solid black;font-size: 65%">
+                    <span t-field="company.rml_footer_lopd_invoices"/>
+                </div>
             </div>
         </template>
 

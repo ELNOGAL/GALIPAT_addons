@@ -18,6 +18,7 @@
     ],
     'data': [
         'views/account_asset_view.xml',
+        'views/res_company_view.xml',
     ],
     'demo': [
     ],
