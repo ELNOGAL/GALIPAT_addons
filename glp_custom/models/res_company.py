@@ -8,5 +8,5 @@ class ResCompany(models.Model):
     _inherit = "res.company"
 
     company_registry = fields.Char(size=256)
-    rml_footer_lopd_orders = fields.Text('LOPD Orders Report Footer')
-    rml_footer_lopd_invoices = fields.Text('LOPD Invoices Report Footer')
+    rml_footer_lopd_orders = fields.Html('LOPD Orders Report Footer')
+    rml_footer_lopd_invoices = fields.Html('LOPD Invoices Report Footer')
